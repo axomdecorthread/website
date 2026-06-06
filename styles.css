@@ -4,7 +4,7 @@
 :root {
 	--font-sans: "Quicksand", sans-serif;
 	--font-serif: "Playfair Display", serif;
-	--img-01: url("res/img/hero-01.jpg");
+	--img-01: url("res/img/hero-01.webp");
 
 	--pure-white: #ffffff;
 	--dark: #1a1a1a;
@@ -12,6 +12,8 @@
 	--heritage-maroon: #7A1E2C;
 	--artisan-gold: #C9A25D;
 	--soft-sand: #E9E2D6;
+	--green-100: #ccf0de;
+	--green-400: #166b3b;
 
 	--wid1: 360px;
 	--wid2: 740px;
@@ -274,10 +276,15 @@ a.wide-button {
 
 #contactFormSubmitted {
 	display: none;
+	padding: 10px;
+	background-color: var(--green-100);
+	border-radius: 8px;
 }
 
 #contactFormSubmitted p {
-	margin: 20px 0;
+	margin: 0;
+	color: var(--green-400);
+	font-weight: 400;
 }
 
 #philosophy {
