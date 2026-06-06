@@ -276,13 +276,9 @@ a.wide-button {
 
 #contactFormSubmitted {
 	display: none;
-	padding: 10px;
-	background-color: var(--green-100);
-	border-radius: 8px;
 }
 
 #contactFormSubmitted p {
-	margin: 0;
 	color: var(--green-400);
 	font-weight: 400;
 }
