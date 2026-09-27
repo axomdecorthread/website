@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+
+		<link rel="icon" href="./res/img/axomdecorthread-favicon.svg" type="image/svg+xml">
+
+		<title id="pageTitle">Blog — Axom Decor Thread</title>
+
+		<meta id="metaDesc" name="description" content="Stories about Assamese textiles from Axom Decor Thread." />
+
+		<meta id="ogImage" property="og:image" content="https://www.axomdecorthread.in/res/img/hero-01.webp" />
+		<meta property="og:image:width" content="1200">
+		<meta property="og:image:height" content="798">
+		<meta property="og:image:type" content="image/webp">
+		<meta property="og:image:alt" content="Axom Decor Thread">
+
+		<meta id="ogTitle" property="og:title" content="Blog — Axom Decor Thread" />
+		<meta id="ogDesc" property="og:description" content="Stories about Assamese textiles from Axom Decor Thread." />
+		<meta id="ogUrl" property="og:url" content="https://www.axomdecorthread.in/blog-post.html" />
+		<meta property="og:type" content="article">
+
+		<link rel="canonical" href="https://www.axomdecorthread.in/blog-post.html" id="canonicalLink">
+
+		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	</head>
+
+	<body>
+		<div id="view">
+			<div id="siteNav">
+				<a href="./index.html" class="brand"><img src="./res/img/logo.svg" alt="Axom Decor Thread" class="nav-logo"></a>
+				<a href="./blog.html" class="back"><i class="bi bi-arrow-left"></i> Back</a>
+			</div>
+
+			<div id="postHero">
+				<div class="post-meta" id="postMeta">Heritage &middot; Textiles</div>
+				<h1 id="postTitle">Loading…</h1>
+				<p class="subtitle" id="postSubtitle"></p>
+				<p class="byline" id="postByline"></p>
+			</div>
+
+			<article id="postBody"></article>
+
+			<div id="postFootnote">
+				<p id="postFootnoteText"></p>
+			</div>
+
+			<div id="footer">
+				<p class="special">
+					Tailored by tradition.
+				</p>
+
+				<p>
+					© Axom Decor Thread | 2026 All Rights Reserved.
+				</p>
+			</div>
+		</div>
+
+		<script>
+			// ---------------------------------------------------------------
+			// Blog post data. Add new posts here — each key is the "post"
+			// query-string slug used in the URL, e.g. ?post=my-new-post
+			// ---------------------------------------------------------------
+			const posts = {
+				"stories-hidden-in-assamese-clothes": {
+					meta: "Heritage · Textiles",
+					title: "The Stories Hidden in Assamese Clothes",
+					subtitle: "A golden silk that grows on a tree. A cloth that became a symbol of an entire culture. A loom that once sat inside the family home.",
+					author: "Himadri Barua Choudhury",
+					date: "28 Sep, 2026",
+					description: "A golden silk that grows on a tree. A cloth that became a symbol of an entire culture. A loom that once sat inside the family home. Twelve stories behind Assam's textile traditions.",
+					image: "./res/img/hero-01.webp",
+					footnote: "The history of Assamese textiles is documented across textile studies, cultural research and heritage collections, including work on Muga and Eri practices, Assam's silk handloom industry, Assamese women's dress, Tai-Ahom clothing traditions and the wider textile traditions of Assam.",
+					html: `
+						<p class="lede">Assamese clothing is full of stories. And some of them are stranger and far more interesting than the usual description of &ldquo;traditional handloom textiles of Assam.&rdquo;</p>
+						<p>So, forget the textbook for a moment. Let's talk about the clothes.</p>
+
+						<h2>1. Assam has a silk that doesn't need to be dyed gold</h2>
+						<p>Look at Muga silk in the light. That golden glow isn't paint. It isn't metallic thread. It's the silk itself.</p>
+						<p>Muga is produced by the <em>Antheraea assamensis</em> silkworm, a species strongly associated with Assam. The fibre naturally develops its distinctive golden colour and lustre.</p>
+						<p>For generations, Assamese communities have developed highly specialised knowledge around rearing the silkworm, reeling the fibre and weaving the finished cloth. Researchers documenting traditional Muga and Eri practices have even recorded the specialised vocabulary surrounding this process.</p>
+						<p><strong>So when someone calls Muga &ldquo;golden silk,&rdquo; they're not exaggerating.</strong> The gold is literally in the fibre.</p>
+						<hr>
+
+						<h2>2. The original &ldquo;home fashion studio&rdquo; was the Assamese household</h2>
+						<p>Imagine needing new clothes. You don't go shopping. You sit at a loom.</p>
+						<p>For generations, weaving was part of household life in Assam. Women played a major role in producing clothing for the family, from everyday cotton textiles to more elaborate fabrics.</p>
+						<p>The loom wasn't necessarily tucked away in some distant workshop. <strong>It could be right at home.</strong> The IGNCA describes handloom weaving as an important household industry in the Brahmaputra valley.</p>
+						<p>Which means Assamese textile culture wasn't originally something you <em>bought</em>. It was something you <em>made</em>.</p>
+						<hr>
+
+						<h2>3. Your Mekhela Sador isn't the whole story</h2>
+						<p>Ask someone to name Assam's traditional dress. &ldquo;Mekhela Sador.&rdquo; Fair enough. But Assam has never had just one textile tradition.</p>
+						<p>It is home to numerous communities, each with their own garments, motifs, weaving techniques and ideas of dress: Bodo, Dimasa, Mising, Karbi, Tai-Ahom, Tai-Phake, and many others. The IGNCA's documentation of Assam's textiles reveals just how diverse these traditions are.</p>
+						<p>So perhaps the better way to think about Assamese clothing is not &ldquo;this is the dress of Assam,&rdquo; but <strong>&ldquo;these are the many clothes of Assam.&rdquo;</strong></p>
+						<hr>
+
+						<h2>4. The Mekhela Sador has a history more complicated than Instagram makes it look</h2>
+						<p>Today, the Mekhela Sador is one of the strongest visual symbols of Assamese identity. But it wasn't born as a perfectly packaged &ldquo;traditional costume.&rdquo;</p>
+						<p>Its history developed alongside Assamese society, including the long history of the Ahom kingdom. Research on Assamese women's dress discusses the Mekhela, Riha and Sador and their relationship with silk traditions and the evolution of Assamese dress.</p>
+						<p>And there's an interesting modern twist: the idea of the Mekhela Sador as the quintessential Assamese woman's dress has itself become part of the construction of Assamese identity.</p>
+						<p><strong>Traditions don't just get inherited. Sometimes they get reinvented.</strong></p>
+						<hr>
+
+						<h2>5. The Ahoms didn't just leave behind a kingdom</h2>
+						<p>In 1228, Sukaphaa crossed into the Brahmaputra valley. What followed was the beginning of the Ahom kingdom — a political power that would shape the region for centuries.</p>
+						<p>But kingdoms don't leave their influence only in monuments and battlefields. They leave it in culture: food, language, ritual, and clothing.</p>
+						<p>Research on Tai-Ahom dress traditions records the use of Muga and mulberry silk and garments including the Mekhela Sador, Riha and Chelen Sador.</p>
+						<p>So the story of Assamese clothing is also a story of <strong>cultures meeting, mixing and changing</strong>.</p>
+						<hr>
+
+						<h2>6. Muga gets the glamour. Eri gets the comfort.</h2>
+						<p>If Muga is the showstopper, Eri is the quiet favourite. Eri has a softer, warmer character. It has traditionally been used for sadors and other garments and has a particularly strong presence among several communities of Northeast India.</p>
+						<p>And then there is Pat silk: smooth, fine, refined.</p>
+						<p>Three silks, three personalities. <strong>Muga shines. Eri warms. Pat flows.</strong> And generations of Assamese weavers knew exactly how to make each one work.</p>
+						<hr>
+
+						<h2>7. The Gamosa wasn't born as an Instagram symbol</h2>
+						<p>Today, put a Gamosa against a white background and it instantly says <strong>Assam</strong>. But its story begins much more simply — a rectangular piece of woven cloth, practical, useful, everyday.</p>
+						<p>Then something happened. People started using it in gestures of respect, hospitality, religion and celebration. Particularly through Bihu, it became deeply woven into Assamese public and cultural life.</p>
+						<p>A humble piece of cloth became a cultural symbol. <strong>That's how heritage often happens.</strong> Not in a museum. In everyday life.</p>
+						<hr>
+
+						<h2>8. In Assam, you can give someone cloth instead of a speech</h2>
+						<p>One of the beautiful things about Assamese textile culture is the importance of presenting cloth. A Gamosa can be offered as a gesture of respect.</p>
+						<p>Suddenly, fabric becomes language. You aren't simply giving someone something to wear. You're saying: <span class="closing">I welcome you. I respect you. You matter.</span></p>
+						<p>A piece of woven cotton can carry an extraordinary amount of meaning.</p>
+						<hr>
+
+						<h2>9. Assamese weavers didn't just make clothes. They made stories.</h2>
+						<p>Here's something easy to miss: a loom doesn't have to make a garment. Historically, Assamese weaving was also used to create elaborate textiles associated with religious and cultural traditions.</p>
+						<p>The IGNCA records Assamese woven textiles depicting scenes from the life of Krishna, episodes from the Ramayana and representations of Vishnu's avatars. Some textiles even contain woven inscriptions.</p>
+						<p>Think about that. <strong>Someone didn't paint the story onto the fabric. They wove it.</strong> Thread by thread.</p>
+						<hr>
+
+						<h2>10. A border isn't always &ldquo;just a border&rdquo;</h2>
+						<p>Look closely at Assamese textiles. The border is often where the drama happens: flowers, birds, animals, geometric patterns, stylised natural forms, religious imagery.</p>
+						<p>These motifs are part of a visual vocabulary that has travelled through generations. Which means that the edge of a Mekhela isn't necessarily decoration. <strong>It can be memory.</strong></p>
+						<hr>
+
+						<h2>11. Every Muga Mekhela has a much longer story than you think</h2>
+						<p>You see a beautiful garment. But trace it backwards: garment, weaver, yarn, reeling, silk cocoon, silkworm, host plant, Assam's landscape.</p>
+						<p>That's the fascinating thing about traditional textiles. The finished garment is only the <strong>last step</strong>. The real story begins much earlier.</p>
+						<hr>
+
+						<h2>12. And no, &ldquo;traditional&rdquo; doesn't mean &ldquo;frozen&rdquo;</h2>
+						<p>This might be the most important part. Traditional Assamese clothing is changing — new colours, new blouses, new silhouettes, new motifs, new ways of draping.</p>
+						<p>Muga is appearing in contemporary fashion. Eri is becoming jackets, stoles and modern separates. Old motifs are finding their way into completely new designs.</p>
+						<p>Recent research into the Mekhela Sador market in Guwahati has specifically examined changing consumer demand, fashion boutiques and the way the garment is adapting to contemporary tastes.</p>
+						<p>And that's not necessarily tradition disappearing. <strong>That's tradition doing what tradition has always done.</strong> Changing.</p>
+						<hr>
+
+						<h2>The real luxury of Assamese textiles</h2>
+						<p>Today, fashion talks endlessly about things like slow fashion, craftsmanship, natural fibres, traceability, sustainability.</p>
+						<p>Assam's textile traditions were doing versions of these things long before they became fashion-industry vocabulary. A fibre came from the land. A family knew how to process it. A weaver knew how to turn it into cloth. A motif carried memory. And someone eventually wore it.</p>
+						<p>That's why a piece of Assamese handloom can feel different from a mass-produced fabric. You're not only looking at a textile. You're looking at <strong>time</strong> — time spent rearing, spinning, weaving, learning, and passing knowledge from one generation to another.</p>
+						<p class="closing">It doesn't just dress the body. It carries a place with it.</p>
+					`
+				}
+			};
+
+			const params = new URLSearchParams(window.location.search);
+			const slug = params.get("post");
+			const post = posts[slug];
+
+			const bodyEl = document.getElementById("postBody");
+
+			if (post) {
+				document.getElementById("pageTitle").textContent = post.title + " — Axom Decor Thread";
+				document.getElementById("metaDesc").setAttribute("content", post.description);
+				document.getElementById("ogTitle").setAttribute("content", post.title + " — Axom Decor Thread");
+				document.getElementById("ogDesc").setAttribute("content", post.description);
+				document.getElementById("ogUrl").setAttribute("content", "https://www.axomdecorthread.in/blog-post.html?post=" + slug);
+				document.getElementById("canonicalLink").setAttribute("href", "https://www.axomdecorthread.in/blog-post.html?post=" + slug);
+				if (post.image) {
+					document.getElementById("ogImage").setAttribute("content", "https://www.axomdecorthread.in" + post.image.replace("./", "/"));
+				}
+
+				document.getElementById("postMeta").textContent = post.meta || "";
+				document.getElementById("postTitle").textContent = post.title;
+				document.getElementById("postSubtitle").textContent = post.subtitle || "";
+				document.getElementById("postByline").innerHTML = post.author
+					? `By <span class="author">${post.author}</span>` + (post.date ? ` &middot; ${post.date}` : "")
+					: "";
+				document.getElementById("postFootnoteText").textContent = post.footnote || "";
+				bodyEl.innerHTML = post.html;
+			} else {
+				document.getElementById("postMeta").textContent = "";
+				document.getElementById("postTitle").textContent = "Story not found";
+				document.getElementById("postSubtitle").textContent = "";
+				document.getElementById("postFootnoteText").textContent = "";
+				bodyEl.innerHTML = `<p>We couldn't find that story. <a href="./blog.html">Browse all stories &rarr;</a></p>`;
+			}
+		</script>
+
+		<script type="application/ld+json" id="postSchema"></script>
+		<script>
+			if (post) {
+				document.getElementById("postSchema").textContent = JSON.stringify({
+					"@context": "https://schema.org",
+					"@type": "Article",
+					"headline": post.title,
+					"description": post.description,
+					"image": "https://www.axomdecorthread.in" + (post.image ? post.image.replace("./", "/") : "/res/img/hero-01.webp"),
+					"author": { "@type": "Person", "name": post.author || "Axom Decor Thread" },
+					"datePublished": "2026-09-28",
+					"publisher": { "@type": "Organization", "name": "Axom Decor Thread" }
+				});
+			}
+		</script>
+	</body>
+</html>
